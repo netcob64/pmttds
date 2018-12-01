@@ -1,0 +1,211 @@
+{
+    "application": {
+        "ids": {
+            "21c91830-c63a-11e8-8467-61d1fa9d9991": {
+                "className": "ItApplication",
+                "status": "DEV",
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9991",
+                "version": 1,
+                "name": "T Lacoste",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "validityStart": "01/01/2018",
+                "validityEnd": null,
+                "onServiceSince": null,
+                "description": "S40 S10"
+            },
+            "21c91830-c63a-11e8-8467-61d1fa9d9992": {
+                "className": "ItApplication",
+                "status": "DEV",
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9992",
+                "version": 1,
+                "name": "M Renault",
+                "label": "no-label",
+                "type": "SPECIFIQUE",
+                "validityStart": "10/05/2018",
+                "validityEnd": null,
+                "onServiceSince": null,
+                "description": "P40"
+            }
+        },
+        "names": {
+            "T Lacoste": "21c91830-c63a-11e8-8467-61d1fa9d9991",
+            "M Renault": "21c91830-c63a-11e8-8467-61d1fa9d9992"
+        }
+    },
+    "meta-model": {
+        "ids": {
+            "21c91830-c63a-11e8-8467-61d1fa9d9994": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9994",
+                "name": "Application",
+                "label": "_label",
+                "type": "_type",
+                "status": "ACTIVATED",
+                "version": 0,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            },
+            "21c91830-c63a-11e8-8467-61d1fa9d9996": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9996",
+                "name": "Message",
+                "label": "hello",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 0,
+                "validityStart": "_start",
+                "validityEnd": "_end",
+                "classStatus": "DRAFT",
+                "attributes": [
+                    {
+                        "type": "NUM",
+                        "name": "id",
+                        "label": "ID",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "NUM",
+                        "name": "version",
+                        "label": "Version",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "TXT",
+                        "name": "name",
+                        "label": "Name",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "type",
+                        "label": "Type",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "status",
+                        "label": "Status",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityStart",
+                        "label": "Validity start date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityEnd",
+                        "label": "Validity end date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "media",
+                        "label": "Media",
+                        "values": "FTP;MSG",
+                        "isSystem": false,
+                        "valSystem": false
+                    }
+                ],
+                "relations": []
+            },
+            "fe0185e0-caee-11e8-acf0-578c49d68c62": {
+                "className": "ItMetamodel",
+                "status": "PROJET",
+                "id": "fe0185e0-caee-11e8-acf0-578c49d68c62",
+                "version": 0,
+                "classStatus": "DRAFT",
+                "attributes": [
+                    {
+                        "type": "NUM",
+                        "name": "id",
+                        "label": "ID",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "NUM",
+                        "name": "version",
+                        "label": "Version",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "TXT",
+                        "name": "name",
+                        "label": "Name",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "type",
+                        "label": "Type",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "LIST",
+                        "name": "status",
+                        "label": "Status",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityStart",
+                        "label": "Validity start date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    },
+                    {
+                        "type": "DATE",
+                        "name": "validityEnd",
+                        "label": "Validity end date",
+                        "values": "",
+                        "isSystem": true,
+                        "valSystem": false
+                    }
+                ],
+                "relations": [],
+                "name": "NEW_METAMODE"
+            },
+            "21c91830-c63a-11e8-8467-61d1fa9d9995": {
+                "id": "21c91830-c63a-11e8-8467-61d1fa9d9995",
+                "name": "Site",
+                "label": "_label",
+                "type": "_type",
+                "status": "DRAFT",
+                "version": 0,
+                "validityStart": "_start",
+                "validityEnd": "_end"
+            }
+        },
+        "names": {
+            "NEW_METAMODE": "fe0185e0-caee-11e8-acf0-578c49d68c62",
+            "Application": "21c91830-c63a-11e8-8467-61d1fa9d9994",
+            "Site": "21c91830-c63a-11e8-8467-61d1fa9d9995",
+            "Message": "21c91830-c63a-11e8-8467-61d1fa9d9996"
+        }
+    }
+}
